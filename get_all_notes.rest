@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "id": "4",
+    "content": "GET and POST are the most important methods of HTTP protocol"
+}
+###
+GET http://localhost:3001/api/invalid
+
+### 
+GET http://localhost:3001
